@@ -1,6 +1,7 @@
 import React from 'react'
 import pic1 from '../Assets/e39cee97d83ba894aa0c105133924b9b.jpg'
 import pic2 from '../Assets/5c577ca47c764bd8af01d840fe7ffccb.jpg'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function About() {
     return (
@@ -29,7 +30,7 @@ export default function About() {
                         <img src={pic1} alt="img" height='120px' width='120px' />
                         <div className="card_details">
                             <h6>Calculate your Profits</h6>
-                            <button>Check Now</button>
+                            <button>Check Now <FaArrowRightLong id='arrow_icon' /></button>
                         </div>
 
                     </div>
@@ -37,7 +38,7 @@ export default function About() {
                         <img src={pic2} alt="img" height='120px' width='120px'/>
                         <div className="card_details">
                             <h6>Calculate your tax liability</h6>
-                            <button>Check Now</button>
+                            <button>Check Now <FaArrowRightLong id='arrow_icon' /></button>
                         </div>
 
                     </div>
