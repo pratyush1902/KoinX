@@ -1,0 +1,705 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+     padding: 0;
+     margin: 0;
+     
+    }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     height: 90px;
+     box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3); 
+     
+}
+.nav_logo img{
+    margin-left: 30px;
+   
+
+
+
+}
+.navbar_links {
+    display: flex;
+    flex-direction: row;
+  
+
+  
+
+}
+.navbar_links ul{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    background-color: white;
+
+
+}
+li{
+    margin-right: 50px;
+    list-style: none;
+    font-family: inter;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+    color: black;
+}
+.nav_button{
+    height: 40px;
+    width: 130px;
+    margin: 25px;
+    border-radius: 8px;
+    border: none;
+     background-image: linear-gradient(to right,#2870EA,#1B4AEF);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: inter;
+
+    margin-right: 90px;
+    margin-left: -35px;
+    color: #FFFFFF;
+  
+}
+.crypto_name>h4{
+    /* margin: 30px; */
+    padding: 20px;
+    margin-bottom: -20px;
+    padding-left: 70px;
+    font-size: 15px;
+    font-family: inter;
+
+    font-weight: 400;
+    color: #3E5765;
+}
+#crypto_name{
+    font-weight: 500;
+    font-family: inter;
+    font-size: 13px;
+    line-height: 17px;
+
+     padding: 5px;
+     color: black;
+}
+#symbol{
+    padding: 5px;
+
+}
+.crypto_graph_contaner{
+    height: 700px;
+    width: 60%;
+     
+    margin: 20px;
+    margin-left: 70px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 10px;
+}
+.crypto_head{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.bitcoin_name{
+    /* margin-top: 6px; */
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0B1426;
+    font-weight: 600;
+}
+.cryto_code{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: inter;
+
+    font-weight: 600;
+    color: #5D667B;
+}
+.crypto_rank{
+    background-color: #808A9D;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: inter;
+
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 6px;
+     
+
+}
+.crypto_rank>h6{
+    text-align: center;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+
+    margin-top: 13px;
+}
+.crypto_growth{
+    background-color: #EBF9F4;
+    color:#14B079;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 22px;
+    height: 30px;
+    width: 80px;
+}
+.crypto_growth h6{
+font-size: 16px;
+list-style: 20px;
+font-weight: 500;
+text-align: center;
+font-family: inter;
+
+margin-top: 6px;
+}
+.crypto_info{
+    display: flex;
+    flex-direction: row;
+
+}
+.crypto_price{
+     
+    margin-left: 40px;
+    font-family: inter;
+
+}
+.price_dollar{
+font-size: 28px;
+line-height: 38px;
+font-family: inter;
+font-weight: 600;
+color: #0B1426;
+}
+.price_inr{
+    font-size: 18px;
+line-height: 27px;
+font-family: inter;
+font-weight: 500;
+color: #0B1426;
+
+}
+.crypto_trend{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+
+}
+.growth_time{
+    margin-left: 15px;
+    /* margin-top: 6px; */
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: inter;
+
+    color: grey;
+}
+.graph{
+    height: 480px;
+    width: 90%;
+    margin: 30px;
+   
+}
+.main_cointaner{
+    background-color: #eff2f5;
+}
+.get_startded{
+    width: 400px;
+    height: 480px;
+    background-color:  #0052FE;
+    
+    margin: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 10px;
+}
+.get_startded>h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: inter;
+
+    line-height: 45px;
+    font-weight: 700;
+    width: 80%;
+     margin-left: 40px;
+     padding-top: 40px;
+}
+.get_startded>p{
+    text-align: center;
+    font-size: 14px;
+    color: #F2F2F2;
+     width: 80%;
+     line-height: 24px;
+    font-family: inter;
+
+     font-weight: 500;
+     margin: 10px;
+     padding-left: 30px;
+}
+.get_startded>img{
+padding-left: 80px;
+}
+.get_startded>button{
+    height: 48px;
+    width: 237px;
+    background-color: #ffff;
+    margin-left: 70px;
+    border-radius: 8px;
+    color: #0F1629;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inter;
+
+    line-height: 28px;
+}
+ 
+.crypto_trending{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 10px;
+
+}
+.contaner{
+    display: flex;
+    flex-direction: row;
+     
+}
+.crypto_right_section{
+    margin-top: 25px;
+
+}
+.Coins_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: inter;
+
+}
+.crypto_trending h2{
+    color: #0F1629;
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: inter;
+
+    padding: 20px;
+
+}
+.horizantal_list ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    margin-top: -16px;
+
+}
+.horizantal_list li{
+    color: #3E424A;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: inter;
+
+    letter-spacing: -1;
+}
+#selected_list{
+    color: #0052FE;
+    border-bottom: 4px  #0052FE solid;
+    padding-bottom: 15px;
+}
+.list_line{
+    width: 60%;
+    color:#D3E0E6;
+    margin-left: 60px;
+    
+}
+.sentiment{
+    height: 600px;
+    width: 60%;
+     
+    margin: 20px;
+    margin-left: 70px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 10px;
+}
+
+.left_analyst{
+    height: 120px;
+    width: 120px;
+    background-color: #EBF9F4;
+    border-radius: 60px;
+    margin: 20px;
+}
+.left_analyst h4{
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 10px;
+    color: #0FBA83;
+    font-size: 36px;
+    font-family: inter;
+
+    line-height: 44px;
+}
+.buy_line{
+    background-color: #00B386;
+    border: none;
+    border-radius: 2px;
+    height: 8px;
+    width: 340px;
+}
+.hold_line{
+    background-color:#C7C8CE;
+    border: none;
+    border-radius: 2px;
+    height: 8px;
+    width: 33px;
+}
+.sell_line{
+    background-color: #F7324C;
+    border: none;
+    border-radius: 2px;
+    height: 8px;
+    width: 66px;
+}
+.Analyst_contaner{
+    display: flex;
+    flex-direction: row;
+}
+.estimate{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.estimate h5{
+    color:#7C7E8C;
+    font-size:16px ;
+    line-height: 22px;
+    font-family: inter;
+
+    font-family: 500;
+     padding-right: 20px;
+}
+.estimate h6{
+    color:#7C7E8C;
+    font-size:15px ;
+    line-height: 22px;
+    font-family: inter;
+
+    font-family: 500;
+    padding-left: 15px;
+}
+.estimate hr{
+    margin-top: 7px;
+}
+.Analysis{
+    color: #44475B;
+    font-size: 19px;
+    line-height: 20px;
+    font-family: inter;
+
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.About{
+    height: auto;
+    width: 60%;
+     
+    margin: 20px;
+    margin-left: 70px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 10px;  
+}
+.about_bitcoin h1{
+    color: #0F1629;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: inter;
+
+    padding: 20px;
+}
+.about_bitcoin h3{
+    color: #0B1426;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: inter;
+
+    padding: 10px;
+    margin-left: 10px;
+}
+.about_bitcoin p{
+    width: 95%;
+    color: #0B1426;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: inter;
+
+    padding: 10px;
+    margin-left: 10px;
+}
+.about_bitcoin hr{
+    margin: 20px;
+     color: #C9CFDD;
+}
+.about_misi h3{
+    color: #0B1426;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: inter;
+
+    padding: 10px;
+    margin-left: 10px
+}
+.about_misi p{
+    width: 95%;
+    color: #0B1426;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: inter;
+
+    padding: 10px;
+    margin-left: 10px; 
+}
+.about_misi hr{
+    margin: 20px;
+    color: #C9CFDD;
+}
+
+.holding_crypto h1{
+    color: #0F1629;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: inter;
+    margin-left: 24px;
+
+    padding: 15px;
+}
+.card1{
+    background-image: linear-gradient(to bottom right, #79F1A4 , #0E5CAD);
+    width: 388px;
+    height: 150px;
+    border-radius: 8px;
+}
+.card2{
+    background-image: linear-gradient(to bottom right,  #FF9865, #EF3031);
+    width: 388px;
+    height: 150px;
+    border-radius: 8px;  
+}
+.holding_card{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: -20px;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    
+}
+.card1 img{
+    padding: 10px;
+}
+.card_details h6{
+    color: #ffff;
+    width: 60%;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: inter;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card_details button{
+    width: 132px;
+    height: 32px;
+    background-color: #ffff;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: #0F1629;
+    font-size: 17px;
+    font-family: inter;
+
+    line-height: 28px;
+    margin-top: 10px;
+}
+.bottem_text{
+    width: 95%;
+    color: #0B1426;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: inter;
+
+    padding: 10px;
+    margin-left: 10px; 
+}
+.Coins_list{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+.Coins_list img{
+    padding: 5px;
+}
+.Coins_list li{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: inter;
+    color: #0F1629;
+    margin-left: -20px;
+    margin-top: 03px;
+}
+.trending_growth{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.about_hr{
+    margin: 20px;
+    color: #C9CFDD;
+    margin-top: -10px;
+}
+
+.slidercard1{
+    width: 456px;
+    height: 206px;
+    background-color: #E8F4FD;
+    border-radius:12px ;
+    padding: 18px, 18px, 38px, 18px;
+    margin: 15px;
+}
+.slidercard2{
+    width: 456px;
+    height: 206px;
+    background-color: #EBF9F4;
+    border-radius:12px ;
+    padding: 18px, 18px, 38px, 18px;
+    margin: 15px;
+}
+.slider_card{
+    display: flex;
+    flex-direction: row;
+}
+.slidercard1{
+    display: flex;
+    flex-direction: row;
+}
+.slidercard2{
+    display: flex;
+    flex-direction: row;
+}
+.car1icon{
+    background-color: 
+    #0082FF;
+    height: 44px;
+    width: 44px;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+   margin: 20px;
+}
+#newsicon{
+    margin-top: 10px;
+}
+.card1content,.card2content{
+    width: 90%;
+}
+.card1content h6{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: inter;
+    color: #191C1F;
+    margin-top: 15px;
+}
+.card2content h6{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #191C1F;
+    font-family: inter;
+    margin-top: 15px;
+}
+.card1content p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #3E5765;
+    font-family: inter;
+    margin-top: 15px;
+}
+.card2content p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #3E5765;
+    font-family: inter;
+    margin-top: 15px;
+}
+
+
+.card2icon{
+    background-color:  
+    #0FBA83;
+    height: 44px;
+    width: 44px;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+   margin: 20px;
+
+}
+#arrowicon{ margin-top: 10px;}
+.sentiment_headig{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 20px;
+padding-top: 20px;
+color: #0F1629;
+
+}
+.key_events{
+    font-family: Inter;
+font-size: 19px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: 
+#44475B;
+padding: 20px;
+}
+#infoicon{
+    color: #7C7E8C;
+    width: 18.67px;
+height: 18.67px;
+top: 2.67px;
+left: 1.67px;
+
+}
+
