@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px){
+.sentiment{
+width: 90%;
+height: auto;
+margin-left: -10px;
+margin: 15px;
+}
+.left_analyst{
+    margin: 10px;
+}
+.right_analyst{
+ width: 70%;
+}
+.buy_line{
+    width:150px;
+}
+.slidercard1{
+    width: 95%;
+    height: auto;
+}
+.slidercard2{
+    width: 95%;
+    height: auto;
+}
+.card1content h6{
+    font-size: 10px;
+}
+.card2content h6{
+    font-size: 10px;
+}
+.card1content p{
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 15px;
+}
+.card2content p{
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 15px;
+}
+.About{
+    width: 90%;
+height: auto;
+margin-left: -10px;
+margin: 15px;
+    
+}
+.get_startded{
+    width: 90%;
+height: auto;
+margin-left: -10px;
+margin: 15px;
+
+
+}
+.get_startded>button{
+
+    margin-bottom: 20px;
+}
+.crypto_trending{
+    width: 90%;
+    height: auto;
+    margin-left: -10px;
+    margin: 15px;
+    margin-bottom: 30px;
+
+}
+#bitcoinChart{
+    width:90% ;
+    height: 70%;
+}
+.crypto_graph_contaner{
+    width: 90%;
+    height: auto;
+    margin-left: -10px;
+    margin: 15px;
+    margin-bottom: 30px;
+
+}
+.horizantal_list{
+    padding-top: 40px;
+    overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll_list{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+navbar .hamburger {
+    display: block;  
+    cursor: pointer;
+  }
+
+  .navbar_links {
+    display: none;  
+    top: 100%;  
+    left: 0;
+    width: 100%;
+    background-color: #333;  
+    padding: 10px 20px;  
+  }
+
+  .navbar_links.open {
+    display: flex;  
+    flex-direction: column;
+  }
+
+  .navbar_links.open ul {
+    margin-bottom: 10px;  
+}
+
+}

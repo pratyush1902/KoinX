@@ -3,7 +3,7 @@ import React from 'react'
 export default function HorizantalList() {
   return (
     <div className="horizantal_list">
-                <ul>
+                <ul className='scroll_list'>
                     <li>Overview</li>
                     <li>Fundamentals</li>
                     <li>News Insights</li>

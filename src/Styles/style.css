@@ -37,6 +37,13 @@
 
 
 }
+.navbar_links ul.hidden {
+    display: none;
+  }
+  
+  .hamburger {
+    display: none; /* Hide hamburger menu by default on larger screens */
+  }
 li{
     margin-right: 50px;
     list-style: none;
@@ -87,6 +94,9 @@ li{
     padding: 5px;
 
 }
+.navbar .hamburger {
+    display: none;
+  }
 .crypto_graph_contaner{
     height: 700px;
     width: 60%;
@@ -277,6 +287,7 @@ padding-left: 80px;
 .contaner{
     display: flex;
     flex-direction: row;
+flex-wrap: wrap;
      
 }
 .crypto_right_section{
@@ -506,6 +517,8 @@ padding-left: 80px;
 .holding_card{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    
     margin: 20px;
     margin-top: -20px;
 }
@@ -703,3 +716,39 @@ left: 1.67px;
 
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+ 
+  
+  .bar {
+    background-color: white;
+    height: 2.4px;
+    width: 25px;
+    margin: 4px 0;
+    
+
+  }
+  .hamburger {
+    display: block; /* Show the hamburger menu on smaller screens */
+    cursor: pointer;
+    /* Add hamburger icon styling (customize as needed) */
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .hamburger.open .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .hamburger.open .bar2 {
+    opacity: 0;
+  }
+  
+  .hamburger.open .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
